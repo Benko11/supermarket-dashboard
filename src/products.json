@@ -1,0 +1,805 @@
+[
+  {
+    "id": 1,
+    "title": "Rožok štandard 50g",
+    "price": 13,
+    "ingredients": [
+      "Pšeničná múka",
+      "Voda",
+      "Droždie",
+      "Rastlinný olej repkový",
+      "Jedlá jódovaná soľ (soľ, jodičnan draselný)",
+      "Zlepšujúci prípravok [pšeničná múka",
+      "jačmenný slad mletý",
+      "emulgátor (E472e)",
+      "kypriaca látka (E500ii)",
+      "múku upravujúca látka (kyselina askorbová)",
+      "enzýmy",
+      "Cukor"
+    ],
+    "rating": 4,
+    "allergens": ["Jačmeň", "Obilniny obsahujúce lepok", "Pšenica"],
+    "stock": 24
+  },
+  {
+    "id": 2,
+    "title": "Kaiserka Natural 60g",
+    "price": 15,
+    "ingredients": [
+      "Pšeničná múka (69 %)",
+      "Voda",
+      "Ražná múka (3 %)",
+      "Droždie",
+      "Soľ",
+      "Rastlinný olej repkový",
+      "Zemiakový škrob",
+      "Cukor",
+      "Pšeničná sladová múka",
+      "Jačmenná sladová múka",
+      "Múku upravujúca látka (kyselina askorbová)"
+    ],
+    "allergens": ["glutén"],
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "title": "Bageta malá svetlá 50g",
+    "ingredients": [
+      "Pšeničná múka",
+      "Pitná voda",
+      "Droždie",
+      "Pekársky prípravok [regulátor kyslosti (E263), múku upravujúce látky (E300, E920), enzýmy]",
+      "Jedlá soľ jodidovaná, Rastlinný olej repkový"
+    ],
+    "allergens": ["glutén"],
+    "price": 16,
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "title": "Tesco Toastový chlieb maslový 500g",
+    "price": 149,
+    "ingredients": [
+      "Pšeničná múka (65 %)",
+      "Pitná voda",
+      "Pšeničný kvas (5 %) (pšeničná múka, pitná voda)",
+      "Droždie",
+      "Jedlá soľ",
+      "Maslo (3 %) (mlieko)",
+      "Cukor",
+      "Kvasný ocot liehový",
+      "Aróma"
+    ],
+    "rating": 3
+  },
+  {
+    "id": 5,
+    "title": "Donut s kakaovou polevou 55g",
+    "price": 44,
+    "ingredients": [
+      "Pšeničná múka, Palmový olej",
+      "Cukor",
+      "Pitná voda",
+      "Palmový tuk",
+      "Repkový olej",
+      "Droždie",
+      "Kakaový prášok so zníženým množstvom tuku (1, 5 %)",
+      "Emulgátory (stearoyl-2-laktylát sodný, estery mono- a diglyceridov mastných kyselín s kyselinou mono- a diacetylvínnou, mono- a diglyceridy mastných kyselín, lecitíny)",
+      "Kokosový tuk",
+      "Sójová múka",
+      "Glutén (pšeničný)",
+      "Kypriace látky (difosforečnany, uhličitany sodné)",
+      "Jedlá soľ jódovaná (jedlá soľ, jodičnan draselný)",
+      "Mliečna čokoláda (cukor, kakaové maslo",
+      "sušené plnotučné mlieko",
+      "kakaová hmota",
+      "prírodná príchuť (vanilka)) (0, 3 %)",
+      "Bambucký tuk",
+      "Sušené plnotučné mlieko",
+      "Pšeničný škrob",
+      "Aróma",
+      "Sušené droždie",
+      "Povlaková látka (šelak, arabská guma)",
+      "Farbivo (karotény)",
+      "Antioxidant (kyselina askorbová)"
+    ],
+    "allergens": ["glutén", "mlieko", "sója"],
+    "rating": 3
+  },
+  {
+    "id": 6,
+    "title": "Tesco Šiška s ovocnou náplňou 65g",
+    "price": 49,
+    "ingredients": [
+      "cesto (67 %) [pšeničná múka, voda, pasterizovaná vaječná hmota, cukrárska zmes (pšeničná krupica, sušená srvátka (mlieko), pšeničná múka, emulgátory (mono- a diglyceridy mastných kyselín, estery mono- a diglyceridov mastných kyselín s kyselinou mono- a diacetylvínnou, lecitín), sušený vaječný bielok, dextróza, slnečnicový olej, regulátory kyslosti (uhličitany sodné, difosforečnany, fosforečnan vápenatý), protihrudkujúca látka (karboxymetylcelulóza), múku upravujúca látka (kyselina askorbová), korenie (výťažky z papriky a kurkumy), repkový olej, cukor, droždie, soľ]",
+      "ovocný džem (23 %) [cukor, voda, koncentrovaná šťava (jahoda, arónia, čierne ríbezle, maliny, čerešne), sušené jablkové výlisky, modifikovaný kukuričný škrob, koncentrovaná citrónová šťava, zahusťovadlo (pektíny), stužovadlo (citrany vápenaté), slnečnicový olej]",
+      "palmový olej",
+      "dekoratívny prášok (3 %) [dextróza, modifikovaný škrob, nestužený palmový tuk]"
+    ],
+    "rating": 2
+  },
+  {
+    "id": 7,
+    "title": "Chlieb zemiakový 500g",
+    "price": 109,
+    "ingredients": [
+      "Pšeničná múka (43 %)",
+      "Pitná voda",
+      "Ražná múka",
+      "Droždie",
+      "Zemiakové vločky (2 %)",
+      "Jedlá jódovaná soľ (soľ, jodičnan draselný)",
+      "Zlepšujúci prípravok [stabilizátor (E170) pšeničná múka, emulgátor (E472e), pražený jačmenný slad, dextróza, múku upravujúca látka (kyselina askorbová), enzýmy]"
+    ],
+    "rating": 2
+  },
+  {
+    "id": 8,
+    "title": "Tesco Maslo 82% tuku 250g",
+    "price": 289,
+    "allergens": ["mlieko"],
+    "rating": 1
+  },
+  {
+    "id": 9,
+    "title": "Tesco Plnotučné mlieko 3.5% 1l",
+    "price": 109,
+    "rating": 1
+  },
+  {
+    "id": 10,
+    "title": "Tesco Čerstvé vajcia M 6ks",
+    "price": 199,
+    "rating": 2
+  },
+  {
+    "id": 11,
+    "title": "Tesco Biely jogurt 400g",
+    "price": 68,
+    "ingredients": [
+      "Plnotučné mlieko",
+      "Mliečne bielkoviny",
+      "Jogurtová kultúra",
+      "Kultúry Bifidobacterium a Lactobacillus acidophilus (10⁶ KTJ/g),"
+    ],
+    "rating": 4
+  },
+  {
+    "id": 12,
+    "title": "Tesco Eidam 30% 250g",
+    "price": 199,
+    "ingredients": [
+      "Pasterizované mlieko",
+      "Jedlá soľ",
+      "Stabilizátor (chlorid vápenatý)",
+      "Mikrobiálne syridlo",
+      "Mliekarenské kultúry"
+    ],
+    "rating": 5
+  },
+  {
+    "id": 13,
+    "title": "Tesco Olej repkový 1l",
+    "price": 189,
+    "rating": 3
+  },
+  {
+    "id": 14,
+    "title": "Tesco Múka hladká pšeničná 1kg",
+    "price": 54
+  },
+  {
+    "id": 15,
+    "title": "Tesco Pramenitá voda perlivá 2l",
+    "price": 29,
+    "rating": 5
+  },
+  {
+    "id": 16,
+    "title": "Tesco Harmanček bylinkový čaj 30g",
+    "price": 75,
+    "ingredients": ["Rumanček pravý"],
+    "rating": 2
+  },
+  {
+    "id": 17,
+    "title": "Tesco 100% pomarančová šťava 1l",
+    "price": 195,
+    "rating": 3
+  },
+  {
+    "id": 18,
+    "title": "Tesco Pomaranče voľné 1kg",
+    "price": 229,
+    "rating": 4
+  },
+  {
+    "id": 19,
+    "title": "Tesco Jablká Pink Lady ukladané",
+    "price": 289
+  },
+  {
+    "id": 20,
+    "title": "Tesco Bio citróny 500g",
+    "price": 199,
+    "rating": 5
+  },
+  {
+    "id": 21,
+    "title": "Tesco Parížsky šalát 400g",
+    "price": 199,
+    "ingredients": [
+      "Majonézová omáčka (37 %) [pitná voda, rastlinný olej repkový, cukor, horčica (pitná voda, horčičné semená, kvasný ocot liehový, glukózový sirup, jedlá soľ, koreniny), modifikovaný kukuričný škrob, konzervačná látka (sorban draselný), dextróza, sušené vaječné žĺtky, jedlá soľ, regulátory kyslosti (kyselina octová, mliečnan sodný, kyselina mliečna, kyselina jablčná), zahusťovadlá (guarová guma, xantánová guma), antioxidant (kyselina askorbová)]",
+      "Bravčová saláma (30 %) [bravčové mäso, pitná voda, bravčové kože, hovädzie mäso, zemiakový škrob, bravčová živočíšna bielkovina, jedlá soľ, stabilizátor (trifosforečnany), dextróza, arómy, mletý zázvor, antioxidanty (erytorban sodný, kyselina jablčná, kyselina citrónová), konzervačná látka (dusitan sodný), zahusťovadlá (xantánová guma, guarová guma), extrakty korenín, bravčová krvná bielkovina]",
+      "Zelenina v rôznych pomeroch (27 %) (kvaka, cibuľa, hrášok, uhorky)",
+      "Cukor",
+      "Worcesterská omáčka [pitná voda, kvasný ocot liehový, cukor, biele víno, jedlá soľ, lekvár (cukor, slivky, jablká), paradajkový pretlak, zmes korenín, arómy]",
+      "Jedlá soľ",
+      "Mleté čierne korenie"
+    ],
+    "rating": 2
+  },
+  {
+    "id": 22,
+    "title": "Tesco Cesnaková nátierka 135g",
+    "price": 115,
+    "ingredients": [
+      "Majonézová omáčka [pitná voda, rastlinný olej repkový, modifikovaný kukuričný škrob, jedlá soľ, cukor, sušené vaječné žĺtky, regulátory kyslosti (kyselina octová, mliečnan sodný, kyselina mliečna), konzervačná látka (sorban draselný), dextróza, zahusťovadlá (guarová guma, xantánová guma)]",
+      "Smotana (mlieko)",
+      "Sušený cesnak (6 %)",
+      "Horčica (pitná voda, horčičné semená, kvasný ocot liehový, glukózový sirup, jedlá soľ, koreniny)",
+      "Konzervačná látka (sorban draselný)",
+      "Dextróza",
+      "Jedlá soľ"
+    ],
+    "rating": 2
+  },
+  {
+    "id": 23,
+    "title": "Tesco Zelený hrášok 450g",
+    "price": 99,
+    "rating": 3
+  },
+  {
+    "id": 24,
+    "title": "Tesco Zmes mrkvy, brokolice a karfiolu 450g",
+    "price": 159,
+    "ingredients": [
+      "Zelenina v rôznych pomeroch (100 %) (mrkva, brokolica, karfiol)"
+    ],
+    "rating": 4
+  },
+  {
+    "id": 25,
+    "title": "Tesco Pizza pečená v kamennej peci so syrmi mozzarella, eidam a cherry paradajkami 353g",
+    "price": 199,
+    "ingredients": [
+      "Pšeničná múka",
+      "Syr mozzarella (21 %) (mlieko)",
+      "Paradajkový pretlak",
+      "Pitná voda",
+      "Cherry paradajky (8 %)",
+      "Syr eidam (4.5 %) (mlieko)",
+      "Rastlinný olej repkový",
+      "Byliny (0.6 %)",
+      "Jedlá soľ",
+      "Droždie",
+      "Cukor",
+      "Cesnak",
+      "Škrob",
+      "Pšeničný škrob",
+      "Dextróza",
+      "Pšeničná bielkovina"
+    ],
+    "rating": 2
+  },
+  {
+    "id": 26,
+    "title": "Tesco Zeleninová zmes 1kg",
+    "price": 269,
+    "ingredients": [
+      "Zelenina v rôznom pomere (100 %) (mrkva, hrášok, zelené fazuľové struky, kukurica)"
+    ],
+    "rating": 1
+  },
+  {
+    "id": 27,
+    "title": "Tesco Smažené zemiakové lupienky solené 130g",
+    "ingredients": [
+      "Zemlaky (64 %)",
+      "Rastlinné oleje (slnečnicový, repkový v rôznych pomeroch)",
+      "Jedlá soľ (0.9 %)"
+    ],
+    "price": 94
+  },
+  {
+    "id": 28,
+    "title": "Tesco Paradajkový pretlak 700g",
+    "ingredients": [
+      "Paradajkový pretlak (99 %)",
+      "Regulátor kyslosti (kyselina citrónová)"
+    ],
+    "price": 185
+  },
+  {
+    "id": 29,
+    "title": "Tesco Kečup pálivý 500g",
+    "price": 145,
+    "ingredients": [
+      "Paradajkový pretlak (46 %)",
+      "Pitná voda",
+      "Cukor",
+      "Kvasný ocot liehový",
+      "Jedlá soľ",
+      "Koreninový prípravok (extrakty z korenín, prírodná aróma)",
+      "Chilli"
+    ],
+    "rating": 3
+  },
+  {
+    "id": 30,
+    "title": "Tesco Finest Hotová paradajková omáčka na cestoviny s paradajkami, cesnakom a bazalkou 340g",
+    "price": 195,
+    "ingredients": [
+      "Paradajky (51 %)",
+      "Paradajkový pretlak",
+      "Olivový olej",
+      "Cesnakový pretlak (5 %)",
+      "Sušené paradajky (4.5 %)",
+      "Bazalka (3.5 %)",
+      "Cukor",
+      "Jedlá soľ",
+      "Regulátor kyslosti (kyselina mliečna)"
+    ],
+    "rating": 4
+  },
+  {
+    "id": 31,
+    "title": "Tesco Extradžem z čiernych čerešní 450g",
+    "price": 255,
+    "ingredients": [
+      "Čierne čerešne",
+      "Cukor",
+      "Regulátor kyslosti (kyselina citrónová)",
+      "Želírujúca látka (pektíny)"
+    ],
+    "rating": 5
+  },
+  {
+    "id": 32,
+    "title": "Tesco Spaghetti semolinové sušené cestoviny 500g",
+    "price": 119,
+    "rating": 5
+  },
+  {
+    "id": 33,
+    "title": "Tesco Fusilli bezvaječné celozrnné semolinové sušené cestoviny 500g",
+    "price": 119,
+    "rating": 4
+  },
+  {
+    "id": 34,
+    "title": "Tesco Tagliatelle 500g",
+    "price": 189,
+    "rating": 5
+  },
+  {
+    "id": 35,
+    "title": "Tesco Niťovky 8 vaječné 200g",
+    "price": 105,
+    "rating": 3
+  },
+  {
+    "id": 36,
+    "title": "Tesco Ryža Basmati dlhozrnná lúpaná 500g",
+    "price": 149,
+    "rating": 3
+  },
+  {
+    "id": 37,
+    "title": "Tesco Šošovica červená polená 500g",
+    "price": 155,
+    "rating": 3
+  },
+  {
+    "id": 38,
+    "title": "Tesco Pšeničný bulgur 500g",
+    "price": 139,
+    "rating": 4
+  },
+  {
+    "id": 39,
+    "title": "Tesco Fazuľa Pinto 500g",
+    "price": 159,
+    "rating": 5
+  },
+  {
+    "id": 40,
+    "title": "Tesco Strúhanka 500g",
+    "price": 75,
+    "ingredients": ["Pšeničná múka", "Pitná voda", "Droždie", "Jedlá soľ"],
+    "rating": 4
+  },
+  {
+    "id": 41,
+    "title": "Tesco Vanilkový cukor 8g",
+    "price": 19,
+    "ingredients": ["Cukor", "Glukóza", "Vanilkový prášok (1%)"],
+    "rating": 5
+  },
+  {
+    "id": 42,
+    "title": "Tesco Sušené droždie 35g",
+    "price": 69,
+    "ingredients": [
+      "Sušené pekárske droždie",
+      "Emulgátor (sorbitan monostearát)"
+    ],
+    "rating": 2
+  },
+  {
+    "id": 43,
+    "title": "Tesco Jedlá sóda 100g",
+    "price": 39,
+    "ingredients": ["Hydrogénuhličitan sodný"],
+    "rating": 4
+  },
+  {
+    "id": 44,
+    "title": "Tesco Kakaový prášok so zníženým množstvom tuku 200g",
+    "price": 199,
+    "ingredients": [
+      "Kakaový prášok so zníženým množstvom tuku",
+      "Regulátor kyslosti (uhličitany draselné)"
+    ],
+    "rating": 5
+  },
+  {
+    "id": 45,
+    "title": "Tesco Puding v prášku s čokoládovou príchuťou 120g",
+    "price": 58,
+    "ingredients": [
+      "Kukuričný škrob",
+      "Kakaový prášok so zníženým množstvom tuku* (20 %)",
+      "Aróma [obsahuje laktózu (mlieko)]"
+    ],
+    "rating": 5
+  },
+  {
+    "id": 46,
+    "title": "Tesco Ocot 8% 1l",
+    "price": 55,
+    "ingredients": [
+      "Pitná voda",
+      "Kvasný ocot liehový",
+      "Farbivo (amoniakový karamel)",
+      "Ocot kvasný liehový 8 g/100 ml"
+    ],
+    "rating": 1
+  },
+  {
+    "id": 47,
+    "title": "Tesco Cukor biely kryštál 1kg",
+    "price": 99,
+    "rating": 2
+  },
+  {
+    "id": 48,
+    "title": "Tesco Celozrnné ovsené vločky, jemné 500g",
+    "price": 69,
+    "rating": 4
+  },
+  {
+    "id": 49,
+    "title": "Tesco Piškóty 480g",
+    "price": 209,
+    "ingredients": ["Pšeničná múka (40 %)", "Vajcia (32 %)", "Cukor"],
+    "rating": 5
+  },
+  {
+    "id": 50,
+    "title": "Tesco Pečená fazuľa v paradajkovej omáčke 420g",
+    "price": 73,
+    "ingredients": [
+      "Biela fazuľa (49 %)",
+      "Pitná voda",
+      "Paradajkový pretlak (20 %)",
+      "Cukor",
+      "Modifikovaný kukuričný škrob",
+      "Jedlá soľ",
+      "Cibuľový prášok",
+      "Farbivo (extrakt z papriky)",
+      "Maltodextrín",
+      "Extrakty korenín"
+    ],
+    "rating": 5
+  },
+  {
+    "id": 51,
+    "title": "Tesco Cícer v slanom náleve 400g",
+    "price": 95,
+    "ingredients": [
+      "Cícer",
+      "Pitná voda",
+      "Jedlá soľ (0.6 %)",
+      "Antioxidant (kyselina askorbová)"
+    ],
+    "rating": 3
+  },
+  {
+    "id": 52,
+    "title": "Tesco Mlieko UHT plnotučné 3,5% 1l",
+    "price": 95,
+    "rating": 3
+  },
+  {
+    "id": 53,
+    "title": "Tesco Tvaroh odtučnený 250g",
+    "price": 95,
+    "rating": 4
+  },
+  {
+    "id": 54,
+    "title": "Tesco Mozzarella 125g",
+    "price": 95,
+    "ingredients": [
+      "Pasterizované mlieko",
+      "Jedlá soľ",
+      "Regulátor kyslosti (kyselina citrónová)"
+    ],
+    "rating": 3
+  },
+  {
+    "id": 55,
+    "title": "Tesco Biely jogurt 150g",
+    "price": 29,
+    "ingredients": [
+      "Plnotučné mlieko",
+      "Mliečne bielkoviny",
+      "Jogurtová kultúra",
+      "Kultúry Bifidobacterium a Lactobacillus Acidophilus (10⁶ KTJ/g)"
+    ],
+    "rating": 1
+  },
+  {
+    "id": 56,
+    "title": "Tesco Parmigiano Reggiano syr 125g",
+    "price": 299,
+    "rating": 3
+  },
+  {
+    "id": 57,
+    "title": "Tesco Kyslá smotana 14% 375g",
+    "price": 105,
+    "ingredients": ["Pasterizovaná smotana (mlieko)", "Smotanová kultúra"]
+  },
+  {
+    "id": 58,
+    "title": "Tesco Majonéza 380g",
+    "price": 205,
+    "ingredients": [
+      "Rastlinný olej repkový",
+      "Pitná voda",
+      "Horčica (pitná voda, horčičné semená, kvasný ocot liehový, jedlá soľ, extrakty korenín)",
+      "Vaječný žĺtok (5 %)",
+      "Cukor",
+      "Kvasný ocot liehový",
+      "Jedlá soľ",
+      "Farbivo (karotény)"
+    ],
+    "rating": 2
+  },
+  {
+    "id": 59,
+    "title": "Tesco Smotanový jogurt stracciatella 150g",
+    "price": 45,
+    "ingredients": [
+      "Smotana (mlieko) (10 % hmot. tuku)",
+      "Ochucujúca zložka (17 %) [cukor, čokoládové kúsky (11 %) (kakaová hmota, kakaové maslo, cukor, emulgátor `(slnečnicový lecitín))",
+      "glukózo-fruktózový sirup",
+      "modifikovaný kukuričný škrob",
+      "zahusťovadlo (xantánová guma)",
+      "regulátor kyslosti (kyselina citrónová), arómy]",
+      "Jogurtová kultúra"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Tesco Tatárska omáčka 380g",
+    "price": 205,
+    "ingredients": [
+      "Pitná voda, Rastlinný olej repkový",
+      "Ochucujúci prípravok so zeleninou (9 %) [horčica (pitná voda, horčičné semená, ocot kvasný liehový, cukor, jedlá soľ, extrakty korenín), uhorka (27 %), ocot kvasný liehový, cukor, jedlá soľ, cibuľa (3 %), pažítka (1, 5 %), pitná voda, extrakty korenín]",
+      "Cukor",
+      "Vaječný žĺtok (1 %)",
+      "Zahusťovací prostriedok [modifikovaný kukuričný škrob, stabilizátor (xantánová guma), rastlinný olej slnečnicový]",
+      "Horčica (pitná voda, horčičné semená, kvasný ocot liehový, jedlá soľ, extrakty korenín)",
+      "Jedlá soľ",
+      "Kvasný ocot liehový",
+      "Regulátor kyslosti (kyselina citrónová)",
+      "Ochucujúci prípravok (extrakty korenín, cukor, glukózový sirup, pitná voda, rastlinný olej repkový)"
+    ],
+    "rating": 4
+  },
+  {
+    "id": 61,
+    "title": "Tesco Rastlinná tuková nátierka na pečenie 250g",
+    "price": 99,
+    "ingredients": [
+      "Rastlinný tuk palmový",
+      "Pitná voda",
+      "Rastlinné oleje (repkový, slnečnicový v rôznych pomeroch)",
+      "Emulgátory (mono- a diglyceridy mastných kyselín, lecitíny, estery mono- a diglyceridov mastných kyselín s kyselinou citrónovou)",
+      "Jedlá soľ (0.5 %)",
+      "Konzervačná látka (sorban draselný)",
+      "Kyselina (kyselina citrónová)",
+      "Farbivo (karotény)",
+      "Aróma"
+    ],
+    "rating": 2
+  },
+  {
+    "id": 62,
+    "title": "Tesco Dezert s vanilkovou príchuťou so šľahačkou 200g",
+    "price": 49,
+    "ingredients": [
+      "Srvátka (mlieko)",
+      "Smotana (11 %) (mlieko)",
+      "Odtučnené mlieko",
+      "Cukor",
+      "Modifikovaný kukuričný škrob",
+      "Kukuričný škrob",
+      "Rastlinné tuky (palmový, kokosový)",
+      "Glukózový sirup",
+      "Hovädzia želatína",
+      "Zahusťovadlá (karagénan, karobová guma, guarová guma)",
+      "Emulgátor (estery mono- a diglyceridov mastných kyselín s kyselinou mliečnou)",
+      "Aróma",
+      "Farbivo (karotény)"
+    ],
+    "rating": 1
+  },
+  {
+    "id": 63,
+    "title": "Tesco Jogurtový nápoj jahodový 300g",
+    "price": 63,
+    "ingredients": [
+      "Odtučnené mlieko",
+      "Obnovená srvátka (mlieko)",
+      "Cukor",
+      "Jahody (2.4 %)",
+      "Jahodový pretlak z koncentrátu (2.4 %)",
+      "Smotana (mlieko)",
+      "Modifikovaný kukuričný škrob",
+      "Aróma",
+      "Mrkvový koncentrát",
+      "Zahusťovadlo (karobová guma)",
+      "Regulátor kyslosti (citrany sodné, kyselina citrónová)",
+      "Jogurtové kultúry"
+    ],
+    "rating": 2
+  },
+  {
+    "id": 64,
+    "title": "Tesco Tatárska omáčka 95g",
+    "price": 66,
+    "ingredients": [
+      "Pitná voda",
+      "Rastlinný olej repkový",
+      "Ochucujúci prípravok so zeleninou (9 %) [horčica (pitná voda, horčičné semená, ocot kvasný liehový, cukor, jedlá soľ, extrakty korenín), uhorka (27 %), ocot kvasný liehový, cukor, jedlá soľ, cibuľa (3 %), pažítka (1.5 %), pitná voda, extrakty korenín]",
+      "Cukor",
+      "Vaječný žĺtok (1 %)",
+      "Zahusťovací prostriedok [modifikovaný kukuričný škrob, stabilizátor (xantánová guma), rastlinný olej slnečnicový]",
+      "Horčica (pitná voda, horčičné semená, kvasný ocot liehový, jedlá soľ, extrakty korenín)",
+      "Jedlá soľ",
+      "Kvasný ocot liehový",
+      "Regulátor kyslosti (kyselina citrónová)",
+      "Ochucujúci prípravok (extrakty korenín, cukor, glukózový sirup, pitná voda, rastlinný olej repkový)"
+    ],
+    "rating": 2
+  },
+  {
+    "id": 65,
+    "title": "Tesco Rožok grahamový 80g",
+    "price": 30,
+    "ingredients": [
+      "Pšeničná múka",
+      "Voda",
+      "Grahamový koncentrát (15 %) [pšeničné otruby (57 %), pšeničná drť (11 %), cukor, jódovaná soľ, stabilizované pšeničné klíčky (5 %), sušený cmar, pšeničný glutén, zahusťovadlo (E412), predželatínovaná pšeničná sladová múka, emulgátory (E472e, lecitíny), dextróza, pšeničná sladová múka, kypriaca látka (E500ii), múku upravujúca látka (E300), enzýmy]",
+      "Droždie",
+      "Rastlinný olej repkový",
+      "Soľ [jedlá soľ, jodičnan draselný, protihrudkujúca látka (E535)]"
+    ],
+    "rating": 1
+  },
+  {
+    "id": 66,
+    "title": "Tesco Vianočka s maslom a medom 500g",
+    "price": 269,
+    "ingredients": [
+      "Pšeničná múka",
+      "Pitná voda",
+      "Maslo 7% (mlieko)",
+      "Vaječná melanž (vajcia, regulátor kyslosti (kyselina citrónová))",
+      "Cukor",
+      "Med (3 %)",
+      "Droždie",
+      "Pekársky prípravok (zvlhčovadlo (sorbitol)",
+      "sušená srvátka (mlieko)",
+      "pšeničná múka",
+      "emulgátor ((mono- a diglyceridy mastných kyselín, stearoyl-2-laktylát sodný)",
+      "sušený vaječný žĺtok",
+      "pšeničný glutén",
+      "sušený vaječný bielok",
+      "zemiakové vločky",
+      "aróma",
+      "sušený pšeničný kvas",
+      "dextróza",
+      "maltodextrín",
+      "farbivo (beta-karotén)",
+      "kyselina (kyselina citrónová)",
+      "stabilizátory (sodná soľ karboxymetylcelulózy, guarová guma)",
+      "múku upravujúca látka (kyselina askorbová), enzýmy)",
+      "zlepšujúci prípravok (voda, emulgátor (mono- a diglyceridy mastných kyselín), arómy, stabilizátory (sorbitolový sirup, propán-1, 2-diol, sodné, draselné a vápenaté soli mastných kyselín)), Soľ jedlá, Sladká sušená srvátka (mlieko), Pekársky prípravok (pšeničná múka, enzýmy (obsahujú pšenicu))",
+      "Konzervačná látka (kyselina sorbová)"
+    ],
+    "rating": 3
+  },
+  {
+    "id": 67,
+    "title": "Tesco Mini pizza šunková s kukuricou 75g",
+    "price": 79,
+    "ingredients": [
+      "Pšeničná múka",
+      "Posyp (27 %) [syr (kravské mlieko, soľ, mliekarenské kultúry, syridlo), šunka krájaná (30 %) (bravčové stehno (57 %), pitná voda, zemiakový škrob, bravčová bielkovina, vláknina (rastlinná, hrachová), stabilizátor (E451), modifikovaný škrob, dextróza, antioxidant (E316), arómy, soliaca zmes (soľ, konzervačná látka (E250)), kukurica sladká (30 %), pšeničná múka]",
+      "Paradajkový základ [pitná voda, paradajkový pretlak, modifikovaný škrob, glukózový sirup, cukor, soľ, oregano sušené, ocot kvasný liehový, konzervačná látka (E202), prírodný koreniaci prípravok, regulátor kyslosti (E330), stabilizátor (E415)]",
+      "Pitná voda",
+      "Pekárenský prípravok [pšeničná múka, soľ, sušená srvátka, rastlinný olej (repkový), emulgátory (E471, E472e), pšeničná sladová múka, cukor, zmes korenia, kukuričný škrob, sušené odtučnené mlieko, múku upravujúca látka (E300), enzýmy]",
+      "Droždie"
+    ],
+    "rating": 2
+  },
+  {
+    "id": 68,
+    "title": "Tesco Celozrnný chlieb 350g",
+    "price": 109,
+    "ingredients": [
+      "Ražný kvások (29 %) (pitná voda, ražná múka)",
+      "Celozrnná ražná múka (23 %)",
+      "Pitná voda",
+      "Ražná múka (13 %)",
+      "Ľanové semená (8 %)",
+      "Slnečnicové semienka (2 %)",
+      "Jedlá soľ"
+    ],
+    "rating": 4
+  },
+  {
+    "id": 69,
+    "title": "Tesco Finest Pšeničný kváskový chlieb 450g",
+    "price": 269,
+    "ingredients": [
+      "Kvások (46 %) (pšeničná múka, pitná voda, kvasné kultúry)",
+      "Pšeničná múka (26 %)",
+      "Pitná voda",
+      "Ražný kvas (6 %) (celozrnná ražná múka, pitná voda, ražná múka, štartovacia kultúra)",
+      "Pekárska zmes (zemiakové vločky, pšeničný glutén, cukor, pšeničná múka, rasca, sušená šťava z aceroly, dextróza, enzýmy)",
+      "Jedlá jódovaná soľ (soľ, jodičnan draselný)"
+    ],
+    "rating": 3
+  },
+  {
+    "id": 70,
+    "title": "Tesco Pizza s klobásou 140g",
+    "price": 169,
+    "ingredients": [
+      "Pšeničná múka",
+      "Posyp (22 %) [klobása (60 %) (bravčové mäso (63 %), bravčová slanina, hovädzie mäso (15 %), soľ, konzervačná látka (E250), paprika sladká, paprika štipľavá, čierne korenie, rasca, cukor), syr (kravské mlieko, soľ, mliekarenské kultúry, syridlo), pšeničná múka]",
+      "Paradajkový základ [pitná voda, paradajkový pretlak, modifikovaný škrob, glukózový sirup, cukor, soľ, oregano sušené, ocot kvasný liehový, konzervačná látka (E202), prírodný koreniaci prípravok, regulátor kyslosti (E330), stabilizátor (E415)]",
+      "Pitná voda",
+      "Pekárenský prípravok [pšeničná múka, soľ, sušená srvátka, rastlinný olej (repkový), emulgátory (E471, E472e), pšeničná sladová múka, cukor, zmes korenia, kukuričný škrob, sušené odtučnené mlieko, múku upravujúca látka (E300), enzýmy]",
+      "Droždie"
+    ],
+    "rating": 2
+  }
+]
