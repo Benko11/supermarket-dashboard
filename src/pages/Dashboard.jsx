@@ -1,17 +1,10 @@
 import { useEffect, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import products from "../products.json";
-import {
-  faChevronLeft,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
 import SearchFilter from "../SearchFilter";
-import TableHeader from "../TableHeader";
-import TableFooter from "../TableFooter";
 import Layout from "../Layout";
 import renderStars from "../utils/renderStars";
-import TableNavigation from "../TableNavigation";
 import { Link } from "react-router";
+import DataTable from "../components/DataTable";
 
 export default function Dashboard() {
   const [page, setPage] = useState(0);
@@ -51,40 +44,30 @@ export default function Dashboard() {
   return (
     <Layout>
       <SearchFilter query={query} onChange={handleSearchQuery} />
-      <table className="data">
-        <TableHeader />
-        <tbody>
-          {data.map((product) => (
-            <tr key={product.id}>
-              <td>
-                <label htmlFor={`checkbox-${product.id}`}>
-                  <input type="checkbox" id={`checkbox-${product.id}`} />
-                </label>
-              </td>
-              <td>
-                <Link to={`/product/${product.id}`}>{product.title}</Link>
-              </td>
-              <td style={{ minWidth: "10vw", textAlign: "center" }}>
-                €{(product.price / 100).toFixed(2)}
-              </td>
-              <td style={{ minWidth: "100px", textAlign: "center" }}>
-                {product.rating ? renderStars(product.rating) : "-"}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-        <TableFooter
-          filteredLength={data.length}
-          totalLength={filteredProducts.length}
-        />
-      </table>
 
-      <TableNavigation
+      <DataTable
+        headers={["Title", "Price", "Rating"]}
+        data={data}
+        selectable={false}
+        totalSize={filteredProducts.length}
         onPrev={handlePrevPage}
         onNext={handleNextPage}
-        total={filteredProducts.length}
+        page={page}
         pageSize={pageSize}
-        currentPage={page}
+        handlers={[
+          {
+            title: (id, ...attr) => (
+              <Link to={`/product/${id}`}>{attr[0]}</Link>
+            ),
+          },
+          {
+            price: (id, ...attr) => `€${(attr[0] / 100).toFixed(2)}`,
+          },
+          {
+            rating: (id, ...attr) => (attr[0] ? renderStars(attr[0]) : "-"),
+          },
+        ]}
+        classHandlers={{ 1: ["price", "centre"], 2: ["rating", "centre"] }}
       />
     </Layout>
   );

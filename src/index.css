@@ -1,13 +1,23 @@
 @import url("reset.css");
 
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/Poppins-Regular.ttf);
+}
+
+:root {
+  --background: #efefef;
+  --primary: #2f2f3f;
+}
+
 ::selection {
-  background-color: #2f2f3f;
+  background-color: var(--primary);
   color: #fff;
 }
 
 body {
   font-family: Poppins, sans-serif;
-  background-color: #efefef;
+  background-color: var(--background);
 }
 
 #root {
@@ -35,8 +45,12 @@ body {
   margin-bottom: 1rem;
 }
 
+.data thead tr th:first-child {
+  min-width: 20px !important;
+}
+
 .data thead tr {
-  background-color: #2f2f3f;
+  background-color: var(--primary);
   color: #fff;
   padding: 2rem 0;
 }
@@ -57,6 +71,17 @@ body {
   padding: 0.375rem 0;
 }
 
+td.centre {
+  text-align: center;
+}
+
+td.price {
+  width: 5rem;
+}
+td.rating {
+  width: 10rem;
+}
+
 .data tbody tr td:first-child label {
   padding: 0.5rem;
   cursor: pointer;
@@ -72,7 +97,7 @@ body {
 
 .data caption {
   caption-side: bottom;
-  background-color: #2f2f3f;
+  background-color: var(--primary);
   color: #fff;
   padding: 0.5rem 0;
   font-size: 0.8rem;
@@ -85,7 +110,7 @@ body {
 
 .buttons button {
   all: unset;
-  background-color: #2f2f3f;
+  background-color: var(--primary);
   color: #fff;
   border-radius: 50%;
   aspect-ratio: 1 / 1;
@@ -133,13 +158,120 @@ form {
 }
 
 a {
-  color: #2f2f3f;
+  color: var(--primary);
 }
 
 .action {
-  background-color: #2f2f3f;
+  background-color: var(--primary);
   color: #fff;
   padding: 0.75rem 1rem;
   border-radius: 10px;
   align-self: flex-start;
+}
+
+.secondary-action {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  align-self: flex-start;
+}
+
+.action:disabled,
+.secondary-action:disabled {
+  opacity: 0.5;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 0.35rem 0.9rem;
+  border-radius: 500px;
+  border: none;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3),
+    -4px -4px 4px rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+
+form input[type="text"]:focus,
+form select:focus {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3) inset,
+    -2px -2px 2px rgba(200, 200, 200, 0.5) inset;
+}
+
+label:not(.ingredient) {
+  font-weight: bold;
+}
+
+div.price {
+  display: flex;
+  flex-direction: row;
+}
+div.price div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.price input {
+  text-align: right;
+  max-width: 100px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  border-radius: 50px;
+  padding: 0.25rem 0.75rem;
+  display: inline;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.rating + div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.rating ~ div label {
+  width: max-content;
+  display: inline-block;
+}
+
+input[type="checkbox"] {
+  width: max-content;
+  background-color: none;
+  box-shadow: none;
+}
+
+.ingredients + div > div {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
 }

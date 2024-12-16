@@ -23,9 +23,7 @@ export default function TableNavigation({
       <button onClick={onPrev} disabled={currentPage <= 0}>
         <FontAwesomeIcon icon={faChevronLeft} />
       </button>
-      <div>
-        {startItem + 1}-{endItem}
-      </div>
+      <div>{endItem > 0 && `${startItem + 1}-${endItem}`}</div>
       <button onClick={onNext} disabled={currentPage >= maxPages}>
         <FontAwesomeIcon icon={faChevronRight} />
       </button>
