@@ -3,6 +3,13 @@
 @font-face {
   font-family: "Poppins";
   src: url(./assets/Poppins-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/Poppins-Bold.ttf);
+  font-weight: bold;
 }
 
 :root {
